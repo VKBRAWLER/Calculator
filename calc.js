@@ -12,7 +12,7 @@ Array.from(buttons).forEach((button)=>{
             }
             evaluate = eval(evaluate);
             document.querySelector('input').value = evaluate;
-        }
+        } 
         else if (e.target.innerHTML == "AC"){
             document.querySelector('input').value = "";
         }
@@ -31,5 +31,3 @@ Array.from(buttons).forEach((button)=>{
         g.target.style.setProperty('font-size', '50px');
     })   
 })
-
-// added a comment to update the commit in the github reposoritory
