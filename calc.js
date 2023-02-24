@@ -18,6 +18,7 @@ Array.from(buttons).forEach((button)=>{
         }
         else{
             let string = "";
+            string += e.target.innerHTML;
             document.querySelector('input').value += string;
         }
     })
